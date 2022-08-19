@@ -1,0 +1,578 @@
+:root {
+  --primary: #071023;
+  --secondary: #bf80b5;
+  --primary-light: #081121;
+  --text: #fff;
+}
+@media (max-width: 480px) {
+  .section-title h2 {
+    font-size: 1.5rem;
+  }
+
+  .steps {
+    height: 370px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .top-header {
+    padding: 10px 0;
+  }
+
+  .top-header h5 {
+    font-size: 12px;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    background-image: url(../images/menu.png) !important;
+  }
+  .nav-custom {
+    padding: 0 1rem;
+  }
+
+  .logo-mobile {
+    width: 50px;
+  }
+
+  .navbar-light .navbar-toggler:focus {
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .main {
+    padding: 0;
+  }
+  .align-md {
+    align-items: flex-end;
+  }
+
+  .main-column-one {
+    text-align: center;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .main-column-one .dual-heading-primary {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+
+  .main-column-one p {
+    font-size: 0.8rem;
+    padding: 0 10px;
+  }
+
+  .main-column-one .feature-item p {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .main-column-two {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-column-two .img-absolute,
+  .img-footer {
+    width: 160px;
+  }
+
+  .feature-list {
+    flex-direction: column;
+  }
+
+  .feature {
+    position: absolute;
+    bottom: -400px;
+    width: 100%;
+    padding: 30px 0;
+  }
+
+  .feature-item {
+    margin-bottom: 25px;
+  }
+
+  #main-body {
+    margin-top: 365px;
+  }
+
+  .card-item {
+    margin-bottom: 30px;
+    height: auto;
+    padding: 2em 1.2em;
+  }
+
+  .icon-box {
+    margin: 50px 0;
+  }
+
+  .partners-logo {
+    flex-direction: column;
+  }
+  .partners-logo img {
+    padding: 20px;
+  }
+
+  .roadmap {
+    flex-direction: column;
+    margin-right: 14em;
+  }
+
+  .roadmap-circle {
+    width: 50px;
+    height: 50px;
+  }
+
+  .roadmap-hr {
+    width: 1px;
+    height: 150px !important;
+    display: inline-block;
+    border-color: var(--secondary);
+    background: var(--secondary);
+  }
+
+  .roadmap-item p {
+    left: 120%;
+    font-size: 0.9em;
+    width: 225px;
+    top: auto;
+    text-align: left;
+  }
+
+  .team-list {
+    flex-direction: column;
+    margin: 0;
+    column-count: auto;
+  }
+
+  .team-item {
+    margin: 50px 0;
+  }
+
+  .newsletter input[type="submit"] {
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  .price-box {
+    margin-bottom: 20px;
+  }
+
+  .sale-box {
+    padding: 50px 20px;
+  }
+
+  .sale-progress {
+    width: 90%;
+  }
+
+  .newsletter-main {
+    height: 100vh;
+  }
+
+  .newsletter {
+    padding: 0 20px;
+  }
+
+  .faq-image img {
+    width: 250px;
+  }
+
+  .faq-image {
+    right: 0;
+  }
+
+  .steps {
+    height: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-toggler {
+    display: none !important;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+  .navbar-nav {
+    flex-direction: row !important;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .nav-custom {
+    padding: 0 1rem;
+  }
+
+  .align-md {
+    align-items: flex-end;
+  }
+
+  .nav-item,
+  .social ul li {
+    padding: 0 8px;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 12px;
+  }
+
+  /* .social ul li a {
+    font-size: 12px;
+  } */
+
+  .social-header ul li:not(:last-child) {
+    display: none;
+  }
+
+  .navbar-light .navbar-brand {
+    margin: 0;
+  }
+
+  .logo {
+    width: 70px;
+  }
+
+  .main-column-one {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .main-column-one p {
+    font-size: 1rem;
+  }
+
+  .main-column-one .feature-item p {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .feature {
+    width: 70%;
+    padding: 10px 0;
+  }
+
+  .feature h5 {
+    text-align: left;
+  }
+
+  .feature-list {
+    flex-wrap: wrap;
+  }
+
+  .feature-item {
+    width: 50%;
+    margin-bottom: 15px;
+  }
+
+  .watch-teaser {
+    text-align: left;
+  }
+
+  .main-column-one .dual-heading-primary {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .main-column-two {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .column-two-footer {
+    justify-content: center;
+  }
+
+  .main-column-two .img-absolute,
+  .img-footer {
+    width: 200px;
+  }
+
+  .card-item {
+    margin-bottom: 30px;
+
+    padding: 2em 1.2em;
+  }
+
+  .card-item h5,
+  .icon-box h4 {
+    font-size: 15px;
+  }
+
+  .card-item p,
+  .icon-box p {
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .partners-logo img {
+    width: 140px;
+  }
+
+  .roadmap {
+    flex-direction: column;
+    margin-right: 6em;
+  }
+
+  .roadmap-circle {
+    width: 50px;
+    height: 50px;
+  }
+
+  .roadmap-hr {
+    width: 1px;
+    height: 150px !important;
+    display: inline-block;
+    border-color: var(--secondary);
+    background: var(--secondary);
+  }
+
+  .roadmap-item p {
+    left: 120%;
+    font-size: 0.9em;
+    width: 300px;
+    top: auto;
+  }
+
+  .team-item .team-info h4 {
+    font-size: 20px;
+  }
+
+  .newsletter input[type="submit"] {
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  .price-box {
+    margin-bottom: 20px;
+  }
+
+  .newsletter-main {
+    height: 100vh;
+  }
+
+  .faq-image {
+    right: 0;
+  }
+
+  .faq-image img {
+    width: 250px;
+  }
+
+  .steps {
+    height: 370px;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 992px) {
+  .nav-custom {
+    padding: 0 1rem;
+  }
+
+  .nav-item {
+    padding: 0;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 15px;
+  }
+
+  .social ul li {
+    padding: 0 10px;
+  }
+
+  .main-column-one {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .social-header ul li:not(:last-child) {
+    display: none;
+  }
+
+  .main-column-one p {
+    font-size: 1rem;
+  }
+
+  .main-column-one .feature-item p {
+    font-size: 1rem;
+    text-align: left;
+  }
+  .feature {
+    width: 70%;
+    padding: 0;
+  }
+
+  .feature h5 {
+    text-align: left;
+  }
+
+  .feature-list {
+    flex-wrap: wrap;
+  }
+
+  .feature-item {
+    width: 50%;
+    margin-bottom: 15px;
+  }
+
+  .watch-teaser {
+    text-align: left;
+  }
+
+  .card-item {
+    height: 370px;
+    margin-bottom: 30px;
+    padding: 2em 1.2em;
+  }
+
+  .card-item h5,
+  .icon-box h4 {
+    font-size: 15px;
+  }
+
+  .card-item p,
+  .icon-box p {
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .main-column-one .dual-heading-primary {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .main-column-two {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .main-column-two .img-absolute,
+  .img-footer {
+    width: 200px;
+  }
+
+  .partners-logo img {
+    width: 140px;
+  }
+
+  .team-item .team-info h4 {
+    font-size: 20px;
+  }
+
+  .faq-image {
+    right: -2%;
+  }
+
+  .faq-image img {
+    width: 250px;
+  }
+
+  .steps {
+    height: 300px;
+  }
+}
+
+@media (max-width: 1280px) and (min-width: 1024px) {
+  .nav-custom {
+    padding: 0 1rem;
+  }
+
+  .nav-item {
+    padding: 0;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 15px;
+  }
+
+  /* .social ul li {
+    padding: 0 10px;
+  } */
+
+  .social-header ul li:not(:last-child) {
+    display: none;
+  }
+
+  .dual-heading-primary {
+    font-size: 2.5rem;
+  }
+
+  .main-column-one p {
+    font-size: 1rem;
+  }
+
+  .main-column-two .img-absolute,
+  .img-footer {
+    width: 330px;
+  }
+
+  .feature {
+    width: 70%;
+  }
+
+  .card-item {
+    height: 370px;
+  }
+
+  .card-item h5,
+  .icon-box h4 {
+    font-size: 15px;
+  }
+
+  .card-item p,
+  .icon-box p {
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .faq-image {
+    right: -2%;
+  }
+
+  .faq-image img {
+    width: 250px;
+  }
+
+  .steps {
+    height: 300px;
+  }
+}
+
+@media (max-width: 1500px) and (min-width: 1200px) {
+  .nav-item {
+    padding: 0 5px;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 15px;
+  }
+
+  .main-column-two .img-absolute,
+  .img-footer {
+    width: 390px;
+  }
+
+  .dual-heading-primary {
+    font-size: 3.5rem;
+  }
+
+  .main-column-one p {
+    font-size: 1rem;
+  }
+
+  .faq-image {
+    right: -2%;
+  }
+
+  .faq-image img {
+    width: 300px;
+  }
+}
